@@ -15,7 +15,7 @@ CAN_WORK_OUTSIDE_MESSAGE = "Yes, weather's beautiful."
 CAN_MAYBE_WORK_OUTSIDE_MESSAGE = "Maybe, I recommend checking the weather."
 CANNOT_WORK_OUTSIDE_MESSAGE = "No luck today."
 
-def getWeather(): #TODO get weather data from openweather api
+def getWeather():
 
     weatherAPIURL = f"https://api.openweathermap.org/data/3.0/onecall?lat={LAT}&lon={LON}&appid={API_KEY}"
 

@@ -3,6 +3,7 @@ name: Weather check daily
 on:
   schedule:
     - cron: '0 6 * *' # 6 am UTC 8 CET
+    - cron: '2 0 * *' #test
   workflow_dispatch:
 
 jobs:
